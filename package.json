@@ -2,7 +2,7 @@
   "name": "blender-ghost",
   "displayName": "Awesome-OS Blender 5.3 Ghost",
   "description": "MIT Blender 5.3 extension for Awesome-OS Code - OSS & Eclipse Theia — instant b8g-ghost cas-v1 Blender hydration, bpy script/addon live reload, and libsectium_display viewport bridge",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "awesome-os",
   "license": "MIT",
   "type": "module",
