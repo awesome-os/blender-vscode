@@ -2,6 +2,31 @@
 
 MIT-licensed Blender 5.3 extension for **Awesome-OS Code - OSS** and **Eclipse Theia** (Open VSX / VS Code compatible).
 
+## Install & Usage
+
+### 1-Command `.vsix` Install (Awesome-OS Code - OSS / Eclipse Theia / VS Code)
+
+```powershell
+gh release download -R awesome-os/blender-vscode --pattern "*.vsix" --dir "$HOME/.b8g/cas/extensions" --clobber
+```
+
+Or download the `.vsix` from [`Releases`](https://github.com/awesome-os/blender-vscode/releases/latest) and run `code-oss --install-extension <file>.vsix` (or install from Open VSX once published).
+
+### Usage
+
+Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and run:
+
+- **Blender Ghost: Hydrate Blender 5.3 from b8g-ghost cas-v1** (`blenderGhost.hydrate`)
+- **Blender Ghost: Launch Blender 5.3 with libsectium_display Bridge** (`blenderGhost.launch`)
+- **Blender Ghost: Run Active bpy Script** (`blenderGhost.runScript`)
+- **Blender Ghost: Live Reload Addon** (`blenderGhost.reloadAddon`)
+
+Run tests locally (Node.js 22+):
+
+```powershell
+node --test test/*.test.mts
+```
+
 ## Features
 
 - **Instant `b8g-ghost @ cas-v1` Hydration:** Resolves and verifies rolling-latest Blender `5.3.0` (`blender-win64.tar.zst` / `blender-linux-x64.tar.zst`) alongside `libsectium_display` and `b8g-ghost-abi` directly from [`awesome-os/b8g-ghost`](https://github.com/awesome-os/b8g-ghost) (`cas-v1`).
