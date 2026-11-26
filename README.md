@@ -1,3 +1,5 @@
+> [!NOTE] Consolidated into https://github.com/awesome-os/devtools
+
 # Awesome-OS Blender 5.3 Ghost (`blender-ghost`)
 
 MIT-licensed Blender 5.3 extension for **Awesome-OS Code - OSS** and **Eclipse Theia** (Open VSX / VS Code compatible).
